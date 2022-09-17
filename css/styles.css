@@ -196,10 +196,6 @@ body {
 }
 
 
-
-button::-moz-focus-inner {
-  border: 0;
-}
 .btn {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
