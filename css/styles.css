@@ -13,18 +13,18 @@ body {
   text-decoration: none;
 }
 :root {
-  --hover-color:  #2196f3;
+  --hover-color: #2196f3;
   --team-color: #757575;
   --white-text: #ffffff;
   --site-nav-text: #212121;
-  --back-list-color:  #f5f4fa;
-  --special-btn-color:  #188ce8;
-  --color-black:  #000000;
-  --footer-bgc:  #2f303a;
+  --back-list-color: #f5f4fa;
+  --special-btn-color: #188ce8;
+  --color-black: #000000;
+  --footer-bgc: #2f303a;
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -35,7 +35,7 @@ body {
 }
 
 .logo-studio {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -58,7 +58,7 @@ body {
 }
 
 .contacts a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -84,7 +84,7 @@ body {
   color: var(--white-text);
 }
 .hero-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -166,11 +166,15 @@ body {
   letter-spacing: 0.03em;
   color: var(--team-color);
 }
+.teamwork-list {
+  background-color: #ffffff;
+}
+
 .footer {
   background: var(--footer-bgc);
 }
 .logo-studio-white {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -217,7 +221,7 @@ body {
   color: var(--site-nav-text);
   background: var(--back-list-color);
   border-radius: 4px;
-  border: 0
+  border: 0;
 }
 .btn:hover,
 .btn:focus {
@@ -229,5 +233,4 @@ body {
 }
 
 .list-link {
- 
 }
